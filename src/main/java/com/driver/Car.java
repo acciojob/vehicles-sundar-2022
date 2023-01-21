@@ -1,24 +1,13 @@
 package com.driver;
 
 public class Car extends Vehicle {
-    private int wheels;
-    private String type;
-    private int doors;
-    private int gears;
-    private boolean isManual;
     private int currentGear;
-    private int seats;
 
-    public Car(int wheels, int doors, int gears, boolean isManual, String type, int seats) {
+
+    public Car() {
         super();
         //Hint: Car extends Vehicle
         currentGear = 1;
-        this.wheels = wheels;
-        this.doors = doors;
-        this.gears = gears;
-        this.isManual = isManual;
-        this.seats = seats;
-        this.type = type;
 
     }
 
